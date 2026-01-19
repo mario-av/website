@@ -392,7 +392,7 @@
     h3 {
         font-family: var(--f-mont);
         font-size: var(--size-2xl);
-        color: var(--c-primary);
+        color: var(--c-text-main);
         margin-bottom: var(--sp-sm);
         position: relative;
         z-index: 1;
