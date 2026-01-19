@@ -370,7 +370,8 @@
 .box-newsletter {
 
     background: none;
-    padding: var(--sp-lg);
+    padding: var(--sp-xl);
+    min-height: 350px;
     border-radius: var(--radius-lg);
     position: relative;
     overflow: hidden;
@@ -727,9 +728,10 @@
 .day-block img {
     width: 100%;
     height: auto;
+    max-height: 450px;
     object-fit: cover;
     border-radius: var(--radius-md);
-    margin-top: var(--sp-sm);
+    margin-top: clamp(0.75rem, 1.5vw, 1.25rem);
     margin-bottom: var(--sp-sm);
     display: block;
 }
