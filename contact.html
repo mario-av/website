@@ -6,15 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact - Visit Denmark</title>
 
-    <!-- Global Styles -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/global.css?v=11">
-    <link rel="stylesheet" href="assets/css/styles.css?v=11">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
 
-    <!-- Header -->
     <header>
         <a href="index.html" class="logo">
             <img src="assets/img/logos/VDK-logo 1.svg" alt="Visit Denmark Logo">
@@ -35,7 +33,6 @@
     </header>
 
     <main>
-        <!-- Hero Section -->
         <section class="section-hero hero-sub">
             <div class="bg-overlay bg-hero-contact"></div>
             <div class="hero-content">
@@ -43,9 +40,8 @@
             </div>
         </section>
 
-        <!-- Use grid-2-cols with gap-xl modifier via CSS, or just rely on default gap and utilities if needed. 
-             But here we have gap-xl in CSS. -->
-        <section class="section-content bg-dark">
+        <section class="section-content bg-light">
+            <h2 class="title-section">Get in Touch</h2>
             <div class="container-grid grid-2-cols gap-xl">
                 <div class="wrapper-form">
                     <h3>Send us a message</h3>
@@ -59,7 +55,6 @@
                                 <i class="fas fa-user"></i>
                             </div>
                         </div>
-
                         <div class="group-input">
                             <label>Email</label>
                             <div class="input-wrapper">
@@ -67,7 +62,6 @@
                                 <i class="fas fa-envelope"></i>
                             </div>
                         </div>
-
                         <div class="group-input">
                             <label>Topic</label>
                             <div class="input-wrapper">
@@ -80,17 +74,15 @@
                                 <i class="fas fa-chevron-down"></i>
                             </div>
                         </div>
-
                         <div class="group-input">
                             <label>Message</label>
                             <div class="input-wrapper">
                                 <textarea placeholder="How can we help you?"></textarea>
                             </div>
                         </div>
-
-                        <button type="button">
+                        <button type="button" class="btn btn-primary">
                             <span>Send Message</span>
-                            <i class="fas fa-paper-plane"></i>
+                            <i class="fas fa-arrow-right"></i>
                         </button>
                     </form>
                 </div>
@@ -104,7 +96,6 @@
                             <p>Vesterbrogade 4A, 1620 København V<br>Open: Mon-Fri 09:00 - 16:00</p>
                         </div>
                     </div>
-
                     <div class="container-grid grid-2-cols gap-md">
                         <div class="block-info">
                             <h4><i class="fas fa-map-marker-alt"></i> Aarhus</h4>
@@ -127,139 +118,114 @@
             </div>
         </section>
 
-        <section class="section-content bg-light">
+        <section class="section-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71065.0038424689!2d10.099574915058383!3d56.17817210239884!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c4cb15397788b%3A0x8c4dd7d9912ea2af!2sAarhus%2C%20Dinamarca!5e0!3m2!1ses!2ses!4v1768841699949!5m2!1ses!2ses"
+                width="100%" height="500" style="border:0; display:block;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="section-content bg-dark">
             <h2 class="title-section">How to Reach Denmark</h2>
             <div class="container-grid grid-3-cols">
-                <div class="card-info">
-                    <i class="fas fa-plane"></i>
-                    <h3>By Air</h3>
-                    <p><strong>Copenhagen Airport (CPH)</strong> is the largest hub in Scandinavia connecting all
-                        continents. <strong>Billund (BLL)</strong> serves the west.</p>
+                <div class="card-info photo-card">
+                    <img src="assets/img/imported-img-12.jpeg" alt="Copenhagen Airport">
+                    <div class="content">
+                        <h3>By Air</h3>
+                        <p><strong>Copenhagen Airport (CPH)</strong> is the largest hub in Scandinavia. <strong>Billund
+                                (BLL)</strong> serves the west.</p>
+                    </div>
                 </div>
-                <div class="card-info">
-                    <i class="fas fa-train"></i>
-                    <h3>By Train</h3>
-                    <p>Hamburg to Copenhagen is a direct 4.5-hour journey. The rail network connects seamlessly with
-                        Germany and Sweden via the Øresund Bridge.</p>
+                <div class="card-info photo-card">
+                    <img src="assets/img/imported-img-10.jpeg" alt="Danish Train">
+                    <div class="content">
+                        <h3>By Train</h3>
+                        <p>Hamburg to Copenhagen is a direct 4.5-hour journey via the Øresund Bridge.</p>
+                    </div>
                 </div>
-                <div class="card-info">
-                    <i class="fas fa-ship"></i>
-                    <h3>By Sea</h3>
-                    <p>Ferries operate daily from Norway (Oslo, Kristiansand), Sweden (Helsingborg), and Germany
-                        (Puttgarden, Rostock).</p>
+                <div class="card-info photo-card">
+                    <img src="assets/img/imported-img-4.jpg" alt="Ferry in Denmark">
+                    <div class="content">
+                        <h3>By Sea</h3>
+                        <p>Ferries operate daily from Norway, Sweden, and Germany.</p>
+                    </div>
                 </div>
             </div>
             <div class="box-visa">
                 <p>
                     <i class="fas fa-passport"></i>
                     <strong>Visa Info:</strong> Denmark is a Schengen Area member. EU/EEA citizens need only a passport
-                    or ID card. Non-EU visitors should check specific requirements.
+                    or ID card.
                 </p>
             </div>
         </section>
 
-        <section class="section-content bg-dark">
-            <h2 class="title-section">Frequently Asked Questions</h2>
-            <div class="container-grid grid-2-cols">
-                <div class="faq-item">
-                    <h4><i class="fas fa-coins"></i> What is the currency?</h4>
-                    <p>We use the <strong>Danish Krone (DKK)</strong>, not the Euro. However, credit cards
-                        (Visa/Mastercard) are accepted almost everywhere.</p>
-                </div>
-                <div class="faq-item">
-                    <h4><i class="fas fa-hand-holding-usd"></i> Do I need to tip?</h4>
-                    <p>Service charge is included in the bill by law. Tipping is not expected, but rounding up for
-                        exceptional service is appreciated.</p>
-                </div>
-                <div class="faq-item">
-                    <h4><i class="fas fa-calendar-alt"></i> Best time to visit?</h4>
-                    <p>Summer (June–August) offers long days and warmth. Winter is dark but perfect for 'hygge',
-                        museums, and Christmas markets.</p>
-                </div>
-                <div class="faq-item">
-                    <h4><i class="fas fa-tint"></i> Can I drink tap water?</h4>
-                    <p>Yes, absolutely. Danish tap water is some of the cleanest and tastiest in the world. Bring a
-                        reusable bottle!</p>
-                </div>
-                <div class="faq-item">
-                    <h4><i class="fas fa-bus"></i> How do I get around?</h4>
-                    <p>Public transport (DSB trains, Metro, Buses) is efficient and punctual. Renting a bike is highly
-                        recommended for city travel.</p>
-                </div>
-                <div class="faq-item">
-                    <h4><i class="fas fa-language"></i> Do people speak English?</h4>
-                    <p>Yes, English is widely spoken throughout Denmark, so you will have no trouble communicating.</p>
-                </div>
-            </div>
-        </section>
-
         <section class="section-content bg-light">
-            <div class="container-grid grid-2-cols align-stretch">
-                <div class="wrapper-form box-newsletter span-2">
-                    <h3><i class="fas fa-envelope-open-text"></i> Subscribe to Our Newsletter</h3>
-                    <p>Get the latest travel tips, seasonal highlights, and exclusive offers delivered to your inbox
-                        monthly.</p>
-                    <form class="newsletter-form">
-                        <div class="input-wrapper">
-                            <input type="email" placeholder="Enter your email address" class="newsletter-input">
-                        </div>
-                        <button type="button" class="btn btn-secondary">
-                            <span>Subscribe Now</span>
-                            <i class="fas fa-arrow-right" style="margin-left: 8px;"></i>
-                        </button>
-                    </form>
+            <h2 class="title-section">Practical Information</h2>
+            <div class="container-grid grid-4-cols">
+                <div class="card-info photo-card">
+                    <img src="assets/img/imported-img-6.jpeg" alt="Emergency Services">
+                    <div class="content">
+                        <h3>Emergency</h3>
+                        <p>Call <strong>112</strong> for police, fire, or ambulance.</p>
+                    </div>
                 </div>
-
-                <div class="span-2">
-                    <h3 class="mb-md">Useful Resources</h3>
-                    <div class="container-grid grid-3-cols resources-grid">
-                        <a href="#" class="btn btn-primary"><i class="fas fa-map" style="margin-right: 8px;"></i>
-                            Interactive Map</a>
-                        <a href="#" class="btn btn-primary"><i class="fas fa-calendar" style="margin-right: 8px;"></i>
-                            Event Calendar</a>
-                        <a href="#" class="btn btn-primary"><i class="fas fa-book" style="margin-right: 8px;"></i>
-                            Travel Guides</a>
-                        <a href="#" class="btn btn-primary"><i class="fas fa-mobile-alt" style="margin-right: 8px;"></i>
-                            Official App</a>
-                        <a href="#" class="btn btn-primary"><i class="fas fa-video" style="margin-right: 8px;"></i>
-                            Virtual Tours</a>
-                        <a href="#" class="btn btn-primary"><i class="fas fa-camera" style="margin-right: 8px;"></i>
-                            Photo Gallery</a>
+                <div class="card-info photo-card">
+                    <img src="assets/img/imported-img-9.jpeg" alt="Healthcare">
+                    <div class="content">
+                        <h3>Healthcare</h3>
+                        <p>EU citizens: bring EHIC card. Non-EU: travel insurance recommended.</p>
+                    </div>
+                </div>
+                <div class="card-info photo-card">
+                    <img src="assets/img/imported-img-7.jpeg" alt="Electricity">
+                    <div class="content">
+                        <h3>Electricity</h3>
+                        <p>Type K plugs, 230V. EU plugs (Type C/F) fit most sockets.</p>
+                    </div>
+                </div>
+                <div class="card-info photo-card">
+                    <img src="assets/img/imported-img-5.jpeg" alt="Time Zone">
+                    <div class="content">
+                        <h3>Time Zone</h3>
+                        <p>CET (UTC+1) in winter, CEST (UTC+2) in summer.</p>
                     </div>
                 </div>
             </div>
         </section>
 
         <section class="section-content bg-dark">
-            <h2 class="title-section">Emergency & Practical Information</h2>
-            <div class="container-grid grid-4-cols">
-                <div class="card-info">
-                    <i class="fas fa-phone-alt"></i>
-                    <h3>Emergency</h3>
-                    <p>Call <strong>112</strong> for police, fire, or ambulance. Operators speak English.</p>
+            <h2 class="title-section">Frequently Asked Questions</h2>
+            <div class="container-grid grid-3-cols">
+                <div class="faq-item">
+                    <h4><i class="fas fa-coins"></i> What is the currency?</h4>
+                    <p>Danish Krone (DKK). Credit cards are accepted almost everywhere.</p>
                 </div>
-                <div class="card-info">
-                    <i class="fas fa-hospital"></i>
-                    <h3>Healthcare</h3>
-                    <p>EU citizens: bring EHIC card. Non-EU: travel insurance is highly recommended.</p>
+                <div class="faq-item">
+                    <h4><i class="fas fa-hand-holding-usd"></i> Do I need to tip?</h4>
+                    <p>Service charge is included by law. Tipping is not expected.</p>
                 </div>
-                <div class="card-info">
-                    <i class="fas fa-plug"></i>
-                    <h3>Electricity</h3>
-                    <p>Type K plugs, 230V. Standard EU plugs (Type C/F) fit in most sockets.</p>
+                <div class="faq-item">
+                    <h4><i class="fas fa-calendar-alt"></i> Best time to visit?</h4>
+                    <p>Summer for long days, winter for hygge and Christmas markets.</p>
                 </div>
-                <div class="card-info">
-                    <i class="fas fa-clock"></i>
-                    <h3>Time Zone</h3>
-                    <p>CET (UTC+1) in winter, CEST (UTC+2) in summer. Same as Berlin/Paris.</p>
+                <div class="faq-item">
+                    <h4><i class="fas fa-tint"></i> Can I drink tap water?</h4>
+                    <p>Yes! Danish tap water is clean and tastes great.</p>
+                </div>
+                <div class="faq-item">
+                    <h4><i class="fas fa-bus"></i> How do I get around?</h4>
+                    <p>Trains, Metro, Buses. Renting a bike is highly recommended.</p>
+                </div>
+                <div class="faq-item">
+                    <h4><i class="fas fa-language"></i> Do people speak English?</h4>
+                    <p>Yes, English is widely spoken throughout Denmark.</p>
                 </div>
             </div>
         </section>
 
         <section class="section-content bg-light">
             <h2 class="title-section">Danish Embassies Worldwide</h2>
-            <p class="header-section-center">For visa inquiries and consular services, contact the Danish embassy in
-                your region.</p>
             <div class="container-grid grid-3-cols">
                 <div class="faq-item embassy-card">
                     <h4><i class="fas fa-flag-usa"></i> United States</h4>
@@ -288,9 +254,24 @@
             </div>
         </section>
 
+        <section class="section-content bg-dark">
+            <div class="wrapper-form box-newsletter">
+                <h3><i class="fas fa-envelope-open-text"></i> Subscribe to Our Newsletter</h3>
+                <p>Get the latest travel tips, seasonal highlights, and exclusive offers delivered monthly.</p>
+                <form class="newsletter-form">
+                    <div class="input-wrapper">
+                        <input type="email" placeholder="Enter your email address" class="newsletter-input">
+                    </div>
+                    <button type="button" class="btn btn-secondary">
+                        <span>Subscribe Now</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+
     </main>
 
-    <!-- Footer -->
     <footer>
         <div class="social-bar">
             <span>Share your journey:</span>
@@ -349,3 +330,5 @@
 </body>
 
 </html>
+
+
