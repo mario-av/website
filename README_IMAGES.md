@@ -108,8 +108,8 @@ This document lists the exact location and context of every image reference foun
 
 ### `assets/css/styles.css`
 
-| Line | Image URL                     | Context                                 |
-| ---- | ----------------------------- | --------------------------------------- |
-| 71   | `../img/imported-img-14.jpeg` | `.img-main` (Promo Visual)              |
-| 80   | `../img/imported-img-10.jpeg` | `.img-small-1` (Promo Visual)           |
-| 332  | `../img/imported-img-16.jpeg` | `.bg-hq` (Main Headquarters Background) |
+| Line | Image URL                             | Context                                 |
+| ---- | ------------------------------------- | --------------------------------------- |
+| 71   | `../img/imported-img-14.jpeg`         | `.img-main` (Promo Visual)              |
+| 80   | `../img/imported-img-10.jpeg`         | `.img-small-1` (Promo Visual)           |
+| 332  | `../img/pexels-jonastogo-2812697.jpg` | `.bg-hq` (Main Headquarters Background) |
