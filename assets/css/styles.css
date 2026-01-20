@@ -389,7 +389,7 @@
         display: none;
     }
 
-    h3 {
+    &.wrapper-form h3 {
         font-family: var(--f-mont);
         font-size: var(--size-2xl);
         color: var(--c-text-main);
