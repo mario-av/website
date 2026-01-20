@@ -1,4 +1,4 @@
-# Image Usage Audit
+# Image Usage Auditory
 
 This document lists the exact location and context of every image reference found in the codebase.
 
