@@ -68,16 +68,18 @@
             width: 80%;
             height: 80%;
             z-index: 1;
-            background-image: url('../img/imported-img-14.jpeg');
+            background-image: url('../img/4 Ways to Get to Greenland.jpeg');
         }
 
         .img-small-1 {
             bottom: 0;
-            left: 0;
-            width: 45%;
-            height: 45%;
+            width: 50%;
+            height: 50%;
             z-index: 2;
-            background-image: url('../img/imported-img-10.jpeg');
+            background-image: url('../img/Royal Standard - Denmark.jpeg');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: contain;
         }
 
         .img-small-2 {
@@ -134,6 +136,14 @@
     &:hover {
         transform: scale(1.02);
     }
+}
+
+.img-history-container~.text-intro .highlight {
+    color: var(--c-primary);
+}
+
+.section-content.bg-dark>.text-intro .highlight {
+    color: var(--c-primary);
 }
 
 .card-info.photo-card {

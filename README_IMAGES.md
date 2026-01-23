@@ -6,27 +6,27 @@ This document lists the exact location and context of every image reference foun
 
 ### `index.html`
 
-| Line | Image URL                            | Context                             |
-| ---- | ------------------------------------ | ----------------------------------- |
-| 23   | `assets/img/logos/VDK-logo 1.svg`    | Header Logo                         |
-| 99   | `assets/img/imported-img-19.webp`    | Historic Denmark (History Section)  |
-| 111  | `assets/img/imported-img-13.jpeg`    | Kronborg Castle (History Section)   |
-| 128  | `assets/img/imported-img-9.jpeg`     | Copenhagen (Destinations Grid)      |
-| 135  | `assets/img/imported-img-10.jpeg`    | Danish Royal (Destinations Grid)    |
-| 142  | `assets/img/imported-img-13.jpeg`    | Danish Krone (Destinations Grid)    |
-| 149  | `assets/img/imported-img-7.jpeg`     | Danish Language (Destinations Grid) |
-| 156  | `assets/img/imported-img-4.jpg`      | Danish Coast (Destinations Grid)    |
-| 163  | `assets/img/imported-img-11.jpeg`    | Danish People (Destinations Grid)   |
-| 215  | `assets/img/imported-img-3.jpg`      | Gallery Image 1 (Masonry)           |
-| 216  | `assets/img/imported-img-9.jpeg`     | Gallery Image 2 (Masonry)           |
-| 218  | `assets/img/imported-img-19.webp`    | Gallery Image 3 (Masonry)           |
-| 220  | `assets/img/imported-img-2.jpg`      | Gallery Image 4 (Masonry)           |
-| 222  | `assets/img/imported-img-18.jpeg`    | Gallery Image 5 (Masonry)           |
-| 223  | `assets/img/imported-img-16.jpeg`    | Gallery Image 6 (Masonry)           |
-| 224  | `assets/img/imported-img-6.jpeg`     | Gallery Image 7 (Masonry)           |
-| 226  | `assets/img/imported-img-4.jpg`      | Gallery Image 8 (Masonry)           |
-| 228  | `assets/img/imported-img-5.jpeg`     | Gallery Image 9 (Masonry)           |
-| 249  | `assets/img/logos/VDK-logo-dark.svg` | Footer Logo                         |
+| Line | Image URL                                                  | Context                                 |
+| ---- | ---------------------------------------------------------- | --------------------------------------- |
+| 23   | `assets/img/logos/VDK-logo 1.svg`                          | Header Logo ✅                          |
+| 99   | `assets/img/pexels-joerg-mangelsen-337913024-20820816.jpg` | Historic Denmark (History Section) ✅   |
+| 112  | `assets/img/denmark-sailing-viking-ships.webp`             | Viking Ships (History Section) ✅ + B&N |
+| 138  | `assets/img/a (1).jpeg`                                    | Copenhagen (Quick Facts) ✅             |
+| 145  | `assets/img/a (2).jpg`                                     | Danish Royal (Quick Facts) ✅           |
+| 152  | `assets/img/a (3).jpeg`                                    | Danish Krone (Quick Facts) ✅           |
+| 159  | `assets/img/a (4).jpeg`                                    | Danish Language (Quick Facts) ✅        |
+| 166  | `assets/img/a (5).jpeg`                                    | Danish Coast (Quick Facts) ✅           |
+| 173  | `assets/img/a (6).jpeg`                                    | Danish People (Quick Facts) ✅          |
+| 215  | `assets/img/imported-img-3.jpg`                            | Gallery Image 1 (Masonry)               |
+| 216  | `assets/img/imported-img-9.jpeg`                           | Gallery Image 2 (Masonry)               |
+| 218  | `assets/img/imported-img-19.webp`                          | Gallery Image 3 (Masonry)               |
+| 220  | `assets/img/imported-img-2.jpg`                            | Gallery Image 4 (Masonry)               |
+| 222  | `assets/img/imported-img-18.jpeg`                          | Gallery Image 5 (Masonry)               |
+| 223  | `assets/img/imported-img-16.jpeg`                          | Gallery Image 6 (Masonry)               |
+| 224  | `assets/img/imported-img-6.jpeg`                           | Gallery Image 7 (Masonry)               |
+| 226  | `assets/img/imported-img-4.jpg`                            | Gallery Image 8 (Masonry)               |
+| 228  | `assets/img/imported-img-5.jpeg`                           | Gallery Image 9 (Masonry)               |
+| 249  | `assets/img/logos/VDK-logo-dark.svg`                       | Footer Logo                             |
 
 ### `destinations.html`
 
@@ -99,7 +99,7 @@ This document lists the exact location and context of every image reference foun
 
 | Line | Image URL                             | Context                                     |
 | ---- | ------------------------------------- | ------------------------------------------- |
-| 165  | `../img/pexels-jonastogo-2812697.jpg` | `.bg-hero-index` (Hero Background)          |
+| 165  | `../img/pexels-jonastogo-2812697.jpg` | `.bg-hero-index` (Hero Background) ✅       |
 | 169  | `../img/imported-img-12.jpeg`         | `.bg-destinations` (Section Background)     |
 | 173  | `../img/imported-img-1.jpg`           | `.bg-routes` (Section Background)           |
 | 177  | `../img/imported-img-8.jpeg`          | `.bg-hero-contact` (Section Background)     |
@@ -108,8 +108,8 @@ This document lists the exact location and context of every image reference foun
 
 ### `assets/css/styles.css`
 
-| Line | Image URL                             | Context                                 |
-| ---- | ------------------------------------- | --------------------------------------- |
-| 71   | `../img/imported-img-14.jpeg`         | `.img-main` (Promo Visual)              |
-| 80   | `../img/imported-img-10.jpeg`         | `.img-small-1` (Promo Visual)           |
-| 332  | `../img/pexels-jonastogo-2812697.jpg` | `.bg-hq` (Main Headquarters Background) |
+| Line | Image URL                                | Context                                 |
+| ---- | ---------------------------------------- | --------------------------------------- |
+| 71   | `../img/4 Ways to Get to Greenland.jpeg` | `.img-main` (Promo Visual) ✅           |
+| 80   | `../img/Royal Standard - Denmark.jpeg`   | `.img-small-1` (Promo Visual) ✅        |
+| 332  | `../img/pexels-jonastogo-2812697.jpg`    | `.bg-hq` (Main Headquarters Background) |
