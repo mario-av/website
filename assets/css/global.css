@@ -50,7 +50,7 @@
 }
 
 .filter-byn {
-    filter: grayscale(100%);
+    filter: grayscale(100%) contrast(1.3);
 }
 
 .highlight {
@@ -337,41 +337,23 @@ img {
 }
 
 .container-grid {
+    container-type: inline-size;
     display: grid;
     gap: var(--sp-lg);
     max-width: 1600px;
     margin: 0 auto;
 
+    /* Auto-layout grids using container queries */
     &.grid-4-cols {
-        grid-template-columns: repeat(4, 1fr);
-
-        @media (max-width: 1024px) {
-            grid-template-columns: repeat(2, 1fr);
-        }
-
-        @media (max-width: 600px) {
-            grid-template-columns: 1fr;
-        }
+        grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
     }
 
     &.grid-3-cols {
-        grid-template-columns: repeat(3, 1fr);
-
-        @media (max-width: 900px) {
-            grid-template-columns: repeat(2, 1fr);
-        }
-
-        @media (max-width: 600px) {
-            grid-template-columns: 1fr;
-        }
+        grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr));
     }
 
     &.grid-2-cols {
-        grid-template-columns: repeat(2, 1fr);
-
-        @media (max-width: 768px) {
-            grid-template-columns: 1fr;
-        }
+        grid-template-columns: repeat(auto-fit, minmax(min(350px, 100%), 1fr));
     }
 
     &.grid-align-center {
@@ -582,6 +564,29 @@ img {
 
     &.card-wide {
         height: 350px;
+    }
+}
+
+/* Beyond Denmark backgrounds */
+.bg-greenland {
+    background-image: url('../img/masonry/Northern Lights - Visit Greenland.jpeg');
+}
+
+.bg-faroe {
+    background-image: url('../img/imported-img-2.jpg');
+}
+
+.card-cta {
+    .card-overlay {
+        justify-content: flex-end;
+        padding-bottom: var(--sp-xl);
+    }
+
+    .btn {
+        margin-top: var(--sp-md);
+        display: inline-flex;
+        align-items: center;
+        gap: var(--sp-sm);
     }
 }
 
