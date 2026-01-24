@@ -1,6 +1,4 @@
-/* GSAP Animations */
-
-gsap.defaults({
+﻿gsap.defaults({
   ease: "power3.out",
   duration: 1,
 });

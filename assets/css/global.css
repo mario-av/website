@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap');
 
-/* GLOBAL Styles */
+
 
 :root {
     --c-primary: #00B89F;
@@ -174,19 +174,21 @@ img {
         }
 
         &.bg-hero-index {
-            background-image: url('../img/pexels-jonastogo-2812697.jpg');
+            background-image: url('../img/home/pexels-jonastogo-2812697.jpg');
         }
 
         &.bg-destinations {
-            background-image: url('../img/imported-img-12.jpeg');
+            background-image: url('../img/destinations/Copenhagen-HD-Desktop-Wallpaper-95415.jpg');
+
         }
 
         &.bg-routes {
-            background-image: url('../img/imported-img-1.jpg');
+            background-image: url('../img/routes/abs.jpg');
+
         }
 
         &.bg-hero-contact {
-            background-image: url('../img/imported-img-8.jpeg');
+            background-image: url('../img/contact/download.jpeg');
         }
 
     }
@@ -341,9 +343,8 @@ img {
     display: grid;
     gap: var(--sp-lg);
     max-width: 1600px;
-    margin: 0 auto;
 
-    /* Auto-layout grids using container queries */
+
     &.grid-4-cols {
         grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
     }
@@ -547,15 +548,47 @@ img {
     }
 
     &.card-bg-index.top-1 .card-bg {
-        background-image: url('../img/top1.jpg');
+        background-image: url('../img/home/top1.jpg');
     }
 
     &.card-bg-index.top-2 .card-bg {
-        background-image: url('../img/top2.jpeg');
+        background-image: url('../img/home/top2.jpeg');
     }
 
     &.card-bg-index.top-3 .card-bg {
-        background-image: url('../img/top3.jpeg');
+        background-image: url('../img/home/top3.jpeg');
+    }
+
+    &.dest-copenhagen .card-bg {
+        background-image: url('../img/destinations/falta.jpeg');
+    }
+
+    &.dest-mons .card-bg {
+        background-image: url('../img/destinations/Møns_Klint_7.jpg');
+    }
+
+    &.dest-odense .card-bg {
+        background-image: url('../img/destinations/odense.jpg');
+    }
+
+    &.dest-bornholm .card-bg {
+        background-image: url('../img/destinations/bornholm.jpg');
+    }
+
+    &.dest-aarhus .card-bg {
+        background-image: url('../img/destinations/aarhus.webp');
+    }
+
+    &.dest-wadden .card-bg {
+        background-image: url('../img/destinations/wadden_sea.jpg');
+    }
+
+    &.dest-billund .card-bg {
+        background-image: url('../img/destinations/billund.jpg');
+    }
+
+    &.dest-skagen .card-bg {
+        background-image: url('../img/destinations/skagen.jpg');
     }
 
     &.card-large {
@@ -567,7 +600,7 @@ img {
     }
 }
 
-/* Beyond Denmark backgrounds */
+
 .bg-greenland {
     background-image: url('../img/masonry/Northern Lights - Visit Greenland.jpeg');
 }
