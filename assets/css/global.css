@@ -157,6 +157,7 @@ img {
 
     &.hero-sub {
         min-height: 60vh;
+        max-height: 500px;
     }
 
     .bg-overlay {

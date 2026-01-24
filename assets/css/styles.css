@@ -988,7 +988,7 @@
 
 
 .hero-route-detail {
-    height: 60vh;
+    height: 70vh;
     min-height: 500px;
     position: relative;
     color: white;
@@ -1031,11 +1031,10 @@
     display: flex;
     align-items: center;
     gap: 8px;
-    background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.1);
     padding: 6px 16px;
     border-radius: var(--radius-full);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     font-weight: 500;
     font-size: 0.9rem;
     color: white;
@@ -1111,7 +1110,6 @@
     font-weight: bold;
     z-index: 2;
     border: 4px solid var(--c-surface);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 @media(min-width: 768px) {
@@ -1152,7 +1150,7 @@
 
 .timeline-images img {
     width: 100%;
-    height: 200px;
+    height: 350px;
     object-fit: cover;
     transition: transform 0.5s ease;
 }
@@ -1182,8 +1180,7 @@
     background: var(--c-surface);
     padding: var(--sp-lg);
     border-radius: var(--radius-lg);
-    border: 1px solid rgba(0, 0, 0, 0.05);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .box-sidebar h3 {
@@ -1248,13 +1245,11 @@
     border-radius: var(--radius-md);
     text-decoration: none;
     transition: all 0.3s;
-    box-shadow: 0 4px 15px rgba(208, 14, 37, 0.2);
 }
 
 .btn-book:hover {
     background: var(--c-accent-hover);
     transform: translateY(-2px);
-    box-shadow: 0 8px 25px rgba(208, 14, 37, 0.3);
 }
 
 
@@ -1285,7 +1280,8 @@ body.expedition-mode .box-sidebar h3 {
 body.expedition-mode .timeline-detail-content p,
 body.expedition-mode .hero-badge-item,
 body.expedition-mode .price-label,
-body.expedition-mode .included-list i {
+body.expedition-mode .included-list i,
+body.expedition-mode .sidebar-tip {
     color: #a0a0a0;
 }
 
@@ -1295,11 +1291,43 @@ body.expedition-mode .timeline-detail-line {
 
 body.expedition-mode .box-sidebar {
     border-color: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 body.expedition-mode .box-sidebar h3 {
     border-bottom-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Expedition mode - footer overrides for dark theme pages */
+body.expedition-mode footer {
+    background-color: #0a0a0a;
+}
+
+body.expedition-mode .social-bar {
+    background-color: #1e1e1e;
+}
+
+body.expedition-mode .social-bar span {
+    color: white;
+}
+
+body.expedition-mode .grid-footer {
+    color: white;
+}
+
+body.expedition-mode .grid-footer h4 {
+    color: white;
+}
+
+body.expedition-mode .grid-footer a {
+    color: #a0a0a0;
+}
+
+body.expedition-mode .grid-footer a:hover {
+    color: var(--c-accent);
+}
+
+body.expedition-mode .copyright {
+    color: #666;
 }
 
 
@@ -1317,8 +1345,6 @@ body.expedition-mode .box-sidebar h3 {
     padding: 10px 20px;
     border-radius: 30px;
     border: 1px solid rgba(255, 255, 255, 0.3);
-    backdrop-filter: blur(4px);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .back-link:hover {
