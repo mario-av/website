@@ -634,7 +634,7 @@
     text-align: center;
     color: var(--c-text-muted);
     max-width: 100%;
-    margin: calc(var(--sp-lg) * -1) auto var(--sp-xl);
+    margin: 0 auto var(--sp-lg);
     font-size: var(--size-lg);
 }
 
@@ -1356,15 +1356,16 @@ body.expedition-mode .copyright {
     margin-bottom: 20px;
     opacity: 1;
     transition: all 0.3s ease;
-    background: rgba(0, 0, 0, 0.6);
+    background: var(--c-accent);
     padding: 10px 20px;
     border-radius: 30px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid var(--c-accent);
+    box-shadow: 0 8px 20px rgba(208, 14, 37, 0.25);
 }
 
 .back-link:hover {
-    background: var(--c-accent);
-    border-color: var(--c-accent);
+    background: var(--c-accent-hover);
+    border-color: var(--c-accent-hover);
     transform: translateX(-5px);
 }
 
