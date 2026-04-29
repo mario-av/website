@@ -12,7 +12,36 @@ document.addEventListener("DOMContentLoaded", () => {
       navItemsContainer.classList.toggle("active");
       menuIcon.classList.toggle("active");
     });
+
+    navItemsContainer.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        navItemsContainer.classList.remove("active");
+        menuIcon.classList.remove("active");
+      });
+    });
   }
+
+  const scrollTopButton = document.createElement("button");
+  scrollTopButton.className = "btn-scroll-top";
+  scrollTopButton.type = "button";
+  scrollTopButton.setAttribute("aria-label", "Back to top");
+  scrollTopButton.innerHTML = '<i class="fas fa-arrow-up"></i>';
+  document.body.appendChild(scrollTopButton);
+
+  const updateScrollTopButton = () => {
+    scrollTopButton.classList.toggle("active", window.scrollY > 500);
+  };
+
+  scrollTopButton.addEventListener("click", () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  });
+
+  updateScrollTopButton();
+  window.addEventListener("scroll", updateScrollTopButton, { passive: true });
+
   gsap.from("header", {
     y: -50,
     opacity: 0,
