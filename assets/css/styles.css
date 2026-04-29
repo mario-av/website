@@ -1373,9 +1373,17 @@ body.expedition-mode .copyright {
     margin-bottom: var(--sp-xl);
 }
 
+.routes-grid>.card-route:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+}
+
 @media (max-width: 900px) {
     .routes-grid {
         grid-template-columns: 1fr;
+    }
+
+    .routes-grid>.card-route:last-child:nth-child(odd) {
+        grid-column: auto;
     }
 }
 
